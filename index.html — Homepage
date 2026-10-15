@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northwoods Snowmobile Guide | Home</title>
+  <meta name="description" content="A fictional guide to snowmobiling in Northern Wisconsin, with gear tips, trail planning, safety advice, and Northwoods destinations.">
+  <style>
+    :root {
+      --navy: #173047;
+      --blue: #285d78;
+      --ice: #eaf3f7;
+      --gold: #e6ad4b;
+      --ink: #243342;
+      --muted: #5b6c79;
+      --white: #ffffff;
+      --line: #d5e1e8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: var(--ink);
+      background: #f7fafc;
+    }
+    .notice {
+      padding: 12px 18px;
+      background: #fff3d9;
+      color: #493715;
+      text-align: center;
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+    header { background: var(--navy); color: white; }
+    .brand, nav, main, footer .inner {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+    .brand { padding: 24px 0 16px; }
+    .brand h1 { margin: 0; font-size: clamp(1.7rem, 5vw, 2.5rem); }
+    .brand p { margin: 4px 0 0; color: #d5e6ef; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 18px; }
+    nav a {
+      color: white; text-decoration: none; padding: 9px 13px;
+      border-radius: 5px; font-weight: 700; font-size: 0.94rem;
+    }
+    nav a:hover, nav a:focus, nav a[aria-current="page"] {
+      background: var(--gold); color: var(--navy);
+    }
+    .hero {
+      background: linear-gradient(135deg, #dcecf3, #f4f8fa);
+      border-bottom: 1px solid var(--line);
+    }
+    .hero-inner {
+      width: min(1100px, 92%); margin: auto;
+      padding: 58px 0 54px;
+    }
+    .eyebrow {
+      color: var(--blue); font-weight: 800;
+      text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.82rem;
+    }
+    h2 { color: var(--navy); line-height: 1.25; }
+    .hero h2 { font-size: clamp(2rem, 6vw, 3.6rem); max-width: 760px; margin: 10px 0 16px; }
+    .hero p { max-width: 700px; font-size: 1.08rem; }
+    .button {
+      display: inline-block; background: var(--blue); color: white;
+      text-decoration: none; padding: 12px 18px; border-radius: 5px;
+      font-weight: 700; margin: 8px 8px 0 0;
+    }
+    .button:hover, .button:focus { background: var(--navy); }
+    main { padding: 38px 0 54px; }
+    .section-intro { max-width: 760px; }
+    .cards {
+      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px; margin-top: 24px;
+    }
+    .card {
+      background: white; border: 1px solid var(--line);
+      border-radius: 9px; padding: 23px;
+      box-shadow: 0 3px 12px rgba(23,48,71,0.04);
+    }
+    .card h3 { margin-top: 0; color: var(--navy); }
+    .card a { color: var(--blue); font-weight: 700; }
+    .feature {
+      background: var(--ice); border-left: 5px solid var(--gold);
+      padding: 22px 25px; margin-top: 30px; border-radius: 5px;
+    }
+    .feature h3 { margin-top: 0; color: var(--navy); }
+    .small { color: var(--muted); font-size: 0.94rem; }
+    footer { background: var(--navy); color: white; padding: 28px 0; }
+    footer p { margin: 8px 0; }
+    footer a { color: #f5cf83; }
+    footer .notice { margin-bottom: 20px; }
+    @media (max-width: 760px) {
+      .cards { grid-template-columns: 1fr; }
+      .hero-inner { padding: 38px 0; }
+      nav { gap: 5px; }
+      nav a { padding: 9px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <div class="brand">
+      <h1>Northwoods Snowmobile Guide</h1>
+      <p>Your starting point for exploring Northern Wisconsin by snowmobile.</p>
+    </div>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="gear-safety.html">Gear &amp; Safety</a>
+      <a href="trails-weather.html">Trails &amp; Weather</a>
+      <a href="towns-stops.html">Towns &amp; Stops</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Plan smarter. Ride responsibly.</div>
+      <h2>Make the most of winter in Wisconsin's Northwoods.</h2>
+      <p>Whether you're planning your first snowmobile outing or looking for a fresh weekend route, the Northwoods offers forest scenery, frozen landscapes, welcoming small towns, and miles of potential adventure. A great ride starts with good preparation.</p>
+      <a class="button" href="gear-safety.html">Prepare for Your Ride</a>
+      <a class="button" href="trails-weather.html">Plan Your Route</a>
+    </div>
+  </section>
+
+  <main>
+    <section class="section-intro">
+      <div class="eyebrow">Explore the guide</div>
+      <h2>Everything you need before heading out</h2>
+      <p>Use these guides to prepare your equipment, check trail and weather information, and build a trip that includes more than just time on the machine.</p>
+    </section>
+
+    <div class="cards">
+      <article class="card">
+        <h3>01. Gear &amp; Safety</h3>
+        <p>Learn what to wear, what to carry, and how new and experienced riders can make safer decisions on the trail.</p>
+        <a href="gear-safety.html">Read the gear and safety guide →</a>
+      </article>
+      <article class="card">
+        <h3>02. Trails &amp; Weather</h3>
+        <p>Understand trail reports, winter weather risks, route planning, and why conditions matter more than a map alone.</p>
+        <a href="trails-weather.html">Plan around conditions →</a>
+      </article>
+      <article class="card">
+        <h3>03. Towns &amp; Stops</h3>
+        <p>Discover fictional trip ideas inspired by Northwoods communities, including places to eat, warm up, and spend the evening.</p>
+        <a href="towns-stops.html">Explore towns and stops →</a>
+      </article>
+    </div>
+
+    <section class="feature">
+      <h3>Before you turn the key</h3>
+      <p>Check current local trail status, weather alerts, access rules, and any required permits or registrations. Snow coverage and trail access can change quickly, and a route shown on a map is not a guarantee that it is open or safe.</p>
+      <p class="small">This site is an educational project, not a live trail-reporting service. Confirm current conditions with official local sources before riding.</p>
+    </section>
+
+    <section>
+      <h2>Build a better snowmobile weekend</h2>
+      <p>Start with a realistic route, match the distance to your group's experience, schedule regular breaks, and identify fuel and food options before leaving. Keep your group together and make a plan for what to do if weather or trail conditions deteriorate.</p>
+      <p>For beginners, a shorter familiar route can be more rewarding than trying to cover the most miles. Experienced riders benefit from the same preparation, especially when exploring unfamiliar areas.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+    <div class="inner">
+      <strong>Northwoods Snowmobile Guide</strong>
+      <p>Independent trip-planning information for a fictional Northern Wisconsin snowmobiling guide.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="gear-safety.html">Gear &amp; Safety</a> ·
+        <a href="trails-weather.html">Trails &amp; Weather</a> ·
+        <a href="towns-stops.html">Towns &amp; Stops</a>
+      </p>
+      <p class="small">Ride within your abilities, respect local rules, and check official information before departure.</p>
+    </div>
+  </footer>
+</body>
+</html>
