@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northern Wisconsin Towns and Stops | Northwoods Snowmobile Guide</title>
+  <meta name="description" content="Explore Northern Wisconsin snowmobile trip ideas, small-town stops, restaurants, and places to relax after a day on the trails.">
+  <style>
+    :root {
+      --navy: #173047; --blue: #285d78; --ice: #eaf3f7;
+      --gold: #e6ad4b; --ink: #243342; --muted: #5b6c79;
+      --line: #d5e1e8;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.7; color: var(--ink); background: #f7fafc; }
+    .notice { padding: 12px 18px; background: #fff3d9; color: #493715; text-align: center; font-size: .88rem; font-weight: 700; }
+    header, footer { background: var(--navy); color: white; }
+    .brand, nav, main, footer .inner { width: min(1100px, 92%); margin: auto; }
+    .brand { padding: 24px 0 16px; }
+    .brand h1 { margin: 0; font-size: clamp(1.7rem, 5vw, 2.5rem); }
+    .brand p { margin: 4px 0 0; color: #d5e6ef; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 18px; }
+    nav a { color: white; text-decoration: none; padding: 9px 13px; border-radius: 5px; font-weight: 700; font-size: .94rem; }
+    nav a:hover, nav a:focus, nav a[aria-current="page"] { background: var(--gold); color: var(--navy); }
+    .hero { background: linear-gradient(135deg, #dcecf3, #f4f8fa); border-bottom: 1px solid var(--line); }
+    .hero-inner { width: min(1100px, 92%); margin: auto; padding: 44px 0; }
+    .eyebrow { color: var(--blue); font-weight: 800; text-transform: uppercase; letter-spacing: .1em; font-size: .82rem; }
+    h2 { color: var(--navy); line-height: 1.25; }
+    .hero h2 { font-size: clamp(2rem, 6vw, 3.2rem); max-width: 800px; margin: 10px 0 16px; }
+    .hero p { max-width: 760px; font-size: 1.08rem; }
+    main { padding: 35px 0 55px; }
+    .content { max-width: 850px; }
+    .panel { background: white; border: 1px solid var(--line); border-radius: 8px; padding: 22px 25px; margin: 20px 0; }
+    .panel h3 { color: var(--navy); margin-top: 0; }
+    .callout { background: var(--ice); border-left: 5px solid var(--gold); padding: 18px 22px; margin: 24px 0; }
+    li { margin-bottom: 9px; }
+    footer { padding: 28px 0; }
+    footer p { margin: 8px 0; }
+    footer a { color: #f5cf83; }
+    .small { color: var(--muted); font-size: .94rem; }
+    @media (max-width: 760px) { .hero-inner { padding: 34px 0; } nav { gap: 5px; } nav a { padding: 9px 10px; } .panel { padding: 18px; } }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <div class="brand">
+      <h1>Northwoods Snowmobile Guide</h1>
+      <p>Your starting point for exploring Northern Wisconsin by snowmobile.</p>
+    </div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="gear-safety.html">Gear &amp; Safety</a>
+      <a href="trails-weather.html">Trails &amp; Weather</a>
+      <a href="towns-stops.html" aria-current="page">Towns &amp; Stops</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Search guide: Northern Wisconsin snowmobile destinations</div>
+      <h2>Ride the trails. Discover the towns. Enjoy the weekend.</h2>
+      <p>A great Northwoods getaway is about more than miles on the snow. Add a warm meal, a small-town main street, a scenic break, or a relaxing evening to turn a day trip into a winter adventure.</p>
+    </div>
+  </section>
+
+  <main>
+    <article class="content">
+      <h2>Where should you start your Northwoods trip?</h2>
+      <p>Northern Wisconsin offers forested landscapes, lakes, small communities, and seasonal outdoor recreation. The best base for a snowmobile trip depends on current trail access, lodging, fuel availability, your group's experience, and how far you want to travel.</p>
+      <p>The following destination ideas are based on real Wisconsin communities. The suggested itineraries and businesses described on this page are fictional, and no actual trail access or business partnership is implied.</p>
+
+      <section class="panel">
+        <h3>Eagle River: A classic winter getaway</h3>
+        <p>Eagle River is known for its Northwoods setting and winter recreation. It can be a starting point for a trip built around forest scenery, local dining, and a comfortable place to unwind after a day outdoors.</p>
+        <p><strong>Fictional itinerary:</strong> Start with breakfast at Pine &amp; Paddle Café, spend the morning on a suitable open trail, stop for lunch in town, and finish with a relaxed dinner at The Lantern Lodge.</p>
+        <p><strong>Best for:</strong> Groups who want a traditional Northwoods atmosphere and a mix of outdoor activity and small-town amenities.</p>
+      </section>
+
+      <section class="panel">
+        <h3>Minocqua: Scenery and a weekend away</h3>
+        <p>Minocqua combines a lake-country setting with shops, restaurants, and places to stay. It is a useful inspiration for riders who want to plan a weekend that balances riding with time exploring the community.</p>
+        <p><strong>Fictional itinerary:</strong> Spend the morning riding a verified open route, take an afternoon break at North Shore Coffee House, and plan a casual group dinner at The Timber Table.</p>
+        <p><strong>Best for:</strong> Couples, friends, and families who want outdoor recreation alongside dining and other winter activities.</p>
+      </section>
+
+      <section class="panel">
+        <h3>Hayward: A relaxed outdoor escape</h3>
+        <p>Hayward is a well-known destination in Wisconsin's northwestern Northwoods. Its broader outdoor recreation appeal makes it an interesting option for visitors who want to combine a snowmobile outing with local food, shopping, or other seasonal activities.</p>
+        <p><strong>Fictional itinerary:</strong> Begin with a planned morning route, stop for lunch at Birchwood Grill, browse local shops in the afternoon, and meet your group for dinner at The Trailhead Kitchen.</p>
+        <p><strong>Best for:</strong> Riders who want flexibility and a trip that can include activities beyond snowmobiling.</p>
+      </section>
+
+      <div class="callout">
+        <h3>Important: confirm access before choosing a destination</h3>
+        <p>These communities are real, but the itineraries, cafés, restaurants, and lodges named in this guide are invented for the class project. They are not actual businesses. Check current county trail reports, official maps, road crossings, local regulations, and business information before planning a real trip.</p>
+      </div>
+
+      <h2>How to plan a snowmobile-friendly day</h2>
+      <section class="panel">
+        <h3>Make your stops part of the plan</h3>
+        <ol>
+          <li><strong>Start with breakfast.</strong> Choose a convenient meeting place where everyone can review the route, forecast, and trail status.</li>
+          <li><strong>Ride during the best available conditions.</strong> Set a realistic distance and allow extra time for slower sections, breaks, and changing weather.</li>
+          <li><strong>Plan a lunch stop.</strong> Confirm that the location is open, that you can reach it legally, and that your group has enough fuel for the full journey.</li>
+          <li><strong>Leave room for exploring.</strong> Walk through town, visit local shops, or find a scenic place that is accessible without entering closed or restricted areas.</li>
+          <li><strong>End the day safely.</strong> Set a turnaround time that accounts for daylight, fuel, fatigue, and the weather forecast.</li>
+        </ol>
+      </section>
+
+      <h2>What to look for in a good stop</h2>
+      <ul>
+        <li><strong>Convenient location:</strong> Check whether the stop is accessible by a currently open, legal route. Never assume a business has direct trail access.</li>
+        <li><strong>Warm indoor space:</strong> A comfortable place to rest helps everyone recover from the cold.</li>
+        <li><strong>Food and drinks:</strong> Plan for meals and water rather than relying on finding an open business along the way.</li>
+        <li><strong>Fuel and parking:</strong> Verify operating hours, parking arrangements, and any local restrictions in advance.</li>
+        <li><strong>Options for the whole group:</strong> Consider non-riders, younger family members, and anyone who wants a break from outdoor activities.</li>
+      </ul>
+
+      <h2>Make the evening count</h2>
+      <p>After a day outside, a good evening can be simple: warm up, enjoy dinner, review photos, and discuss the next day's plans. If your group is staying overnight, choose lodging in advance and confirm check-in arrangements during winter weather.</p>
+      <p>Keep safety in mind after the ride, too. Never operate a snowmobile after drinking alcohol or using impairing substances. Arrange a safe way to travel between your lodging, restaurant, and other stops.</p>
+
+      <h2>First trip or annual tradition?</h2>
+      <p><strong>First-time visitors</strong> can focus on one community, a short route, and a small number of planned stops. That leaves time to learn the area without rushing.</p>
+      <p><strong>Returning riders</strong> can use a familiar destination as a base while exploring a different open route or visiting another nearby community, provided current trail conditions and travel distances make it practical.</p>
+
+      <p class="small">For real trip planning, start with the <a href="https://dnr.wisconsin.gov/" target="_blank" rel="noopener noreferrer">Wisconsin Department of Natural Resources</a> and the <a href="https://www.weather.gov/" target="_blank" rel="noopener noreferrer">National Weather Service</a>. Verify all business details and local trail information independently.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+    <div class="inner">
+      <strong>Northwoods Snowmobile Guide</strong>
+      <p>Independent trip-planning information for a fictional Northern Wisconsin snowmobiling guide.</p>
+      <p><a href="index.html">Home</a> · <a href="gear-safety.html">Gear &amp; Safety</a> · <a href="trails-weather.html">Trails &amp; Weather</a> · <a href="towns-stops.html">Towns &amp; Stops</a></p>
+      <p class="small">Ride within your abilities, respect local rules, and check official information before departure.</p>
+    </div>
+  </footer>
+</body>
+</html>
