@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://clarepiazza.github.io/snowmobile-guide/sitemap.xml
