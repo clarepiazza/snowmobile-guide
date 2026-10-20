@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -93,6 +92,14 @@
     footer p { margin: 8px 0; }
     footer a { color: #f5cf83; }
     footer .notice { margin-bottom: 20px; }
+    /* Added only for the homepage image; existing page styles are unchanged. */
+    .page-image {
+      display: block;
+      width: min(900px, 100%);
+      height: auto;
+      margin: 28px 0 0;
+      border-radius: 9px;
+    }
     @media (max-width: 760px) {
       .cards { grid-template-columns: 1fr; }
       .hero-inner { padding: 38px 0; }
@@ -122,6 +129,7 @@
       <p>Explore Northern Wisconsin snowmobiling with a guide to preparing for your ride, understanding trail and weather conditions, and discovering Northwoods destinations. Whether you're new to snowmobiling or planning another winter adventure, use these resources to prepare and plan a more enjoyable trip.</p>
       <a class="button" href="gear-safety.html">Prepare for Your Ride</a>
       <a class="button" href="trails-weather.html">Plan Your Route</a>
+      <img class="page-image" src="images/home-snowmobile.png" alt="A snowmobile traveling along a trail through a snowy Wisconsin forest">
     </div>
   </section>
   <main>
