@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,6 +38,14 @@
     footer p { margin: 8px 0; }
     footer a { color: #f5cf83; }
     .small { color: var(--muted); font-size: .94rem; }
+    /* Added only for the gear image; existing page styles are unchanged. */
+    .gear-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 0 0 28px;
+    }
     @media (max-width: 760px) { .hero-inner { padding: 34px 0; } nav { gap: 5px; } nav a { padding: 9px 10px; } .panel { padding: 18px; } }
   </style>
 </head>
@@ -68,6 +75,7 @@
 
   <main>
     <article class="content">
+      <img class="gear-image" src="images/snowmobile-gear.png" alt="Snowmobile riding gear including an insulated jacket, bib-style snow pants, gloves, helmet, and balaclava">
       <h2>What should you wear snowmobiling?</h2>
       <p>Staying warm is about more than wearing a thick coat. Wind, moisture, and long periods of exposure can make a winter ride uncomfortable or dangerous. Dress in layers that keep you dry and allow you to adjust as conditions change.</p>
 
