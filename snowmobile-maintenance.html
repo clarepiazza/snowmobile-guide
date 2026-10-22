@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Snowmobile Buying &amp; Maintenance | Northwoods Snowmobile Guide</title>
+  <meta name="description" content="Learn how to buy a snowmobile, inspect a used sled, troubleshoot common problems, and follow regular snowmobile maintenance tips.">
+
+  <style>
+    :root {
+      --navy: #17324d;
+      --blue: #286b8e;
+      --gold: #e6b95c;
+      --ice: #edf5f8;
+      --line: #d9e2e8;
+      --muted: #5e6d78;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #263746;
+      line-height: 1.7;
+      background: #f8fafb;
+    }
+
+    .notice {
+      padding: 8px 4%;
+      text-align: center;
+      font-size: .82rem;
+      background: #edf5f8;
+      color: #344b5d;
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+    }
+
+    .brand {
+      width: min(1100px, 92%);
+      margin: auto;
+      padding: 22px 0 12px;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .brand p { margin: 4px 0 12px; }
+
+    nav {
+      width: min(1100px, 92%);
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0 0 18px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 9px 13px;
+      border-radius: 5px;
+      font-weight: 700;
+      font-size: .94rem;
+    }
+
+    nav a:hover, nav a:focus, nav a[aria-current="page"] {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #dcecf3, #f4f8fa);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero-inner {
+      width: min(1100px, 92%);
+      margin: auto;
+      padding: 44px 0;
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-size: .82rem;
+    }
+
+    h2 { color: var(--navy); line-height: 1.25; }
+
+    .hero h2 {
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      max-width: 800px;
+      margin: 10px 0 16px;
+    }
+
+    .hero p { max-width: 760px; font-size: 1.08rem; }
+
+    main { padding: 35px 0 55px; }
+
+    .content {
+      width: min(820px, 92%);
+      margin: auto;
+    }
+
+    .panel {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px 25px;
+      margin: 20px 0;
+    }
+
+    .panel h3 { color: var(--navy); margin-top: 0; }
+
+    .callout {
+      background: var(--ice);
+      border-left: 5px solid var(--gold);
+      padding: 18px 22px;
+      margin: 24px 0;
+    }
+
+    li { margin-bottom: 9px; }
+
+    a { color: var(--blue); }
+
+    .small { color: var(--muted); font-size: .94rem; }
+
+    footer {
+      background: var(--navy);
+      color: white;
+      padding: 28px 0;
+    }
+
+    footer .inner {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    footer p { margin: 8px 0; }
+    footer a { color: #f5cf83; }
+
+    @media (max-width: 760px) {
+      .hero-inner { padding: 34px 0; }
+      nav { gap: 5px; }
+      nav a { padding: 9px 10px; }
+      .panel { padding: 18px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <div class="brand">
+      <h1>Northwoods Snowmobile Guide</h1>
+      <p>Your starting point for exploring Northern Wisconsin by snowmobile.</p>
+    </div>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="gear-safety.html">Gear &amp; Safety</a>
+      <a href="trails-weather.html">Trails &amp; Weather</a>
+      <a href="towns-stops.html">Towns &amp; Stops</a>
+      <a href="snowmobile-maintenance.html" aria-current="page">Buying &amp; Maintenance</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Snowmobile ownership guide</div>
+      <h2>Choose your sled. Keep it running. Make the most of winter.</h2>
+      <p>Buying a snowmobile is only the beginning. Learn what to consider before purchasing, how to spot potential problems, and which maintenance habits can help prepare your machine for Northern Wisconsin's winter trails.</p>
+    </div>
+  </section>
+
+  <main>
+    <article class="content">
+
+      <h2>Thinking about buying a snowmobile?</h2>
+      <p>Whether you are purchasing your first snowmobile or upgrading to a different model, taking time to compare your options can help you find a machine that fits your experience, budget, and riding plans. Think about where you will ride, how often you expect to go out, and how much maintenance you are comfortable handling.</p>
+
+      <section class="panel">
+        <h3>1. Choose the right type of snowmobile</h3>
+        <ul>
+          <li><strong>Trail snowmobiles:</strong> Often designed for groomed trails, with an emphasis on predictable handling and comfort during longer rides.</li>
+          <li><strong>Touring snowmobiles:</strong> Typically offer additional passenger comfort and storage for riders planning longer trips together.</li>
+          <li><strong>Crossover snowmobiles:</strong> Designed to handle a mix of trail riding and some off-trail conditions, depending on the model.</li>
+          <li><strong>Mountain and deep-snow models:</strong> Built for deeper snow and specialized terrain. They may not be the best fit for someone who mainly rides groomed Wisconsin trails.</li>
+          <li><strong>Utility snowmobiles:</strong> Often prioritize practical use, hauling capability, or work-related tasks.</li>
+        </ul>
+        <p>Model names and capabilities vary by manufacturer and year. Compare the specific machine's features, intended use, and owner manual rather than relying on its category alone.</p>
+      </section>
+
+      <section class="panel">
+        <h3>2. Set a realistic snowmobile budget</h3>
+        <p>The purchase price is only one part of the cost of owning a snowmobile. Before buying, estimate the total cost of getting the machine ready to ride and keeping it in good condition.</p>
+        <ul>
+          <li><strong>Purchase price:</strong> Compare similar models, model years, mileage, condition, and included accessories.</li>
+          <li><strong>Protective gear:</strong> Budget for a properly fitted helmet, insulated clothing, gloves, and other appropriate safety equipment.</li>
+          <li><strong>Registration and insurance:</strong> Check the requirements that apply to your machine and where you plan to ride.</li>
+          <li><strong>Fuel and fluids:</strong> Account for fuel, oil where applicable, and other manufacturer-specified fluids.</li>
+          <li><strong>Maintenance and repairs:</strong> Set aside money for routine service, replacement parts, and unexpected mechanical issues.</li>
+          <li><strong>Storage and transportation:</strong> Consider off-season storage, a trailer, tie-downs, and a suitable vehicle if needed.</li>
+        </ul>
+        <p class="small">Costs vary considerably by machine, condition, location, and riding frequency. Request current quotes before making a purchase.</p>
+      </section>
+
+      <section class="panel">
+        <h3>3. Inspect a used snowmobile before buying</h3>
+        <p>A snowmobile that looks clean is not necessarily mechanically sound. If you are considering a used machine, take your time and ask the seller specific questions.</p>
+        <ul>
+          <li><strong>Review its history:</strong> Ask about the model year, maintenance records, previous repairs, storage conditions, and how the machine was used.</li>
+          <li><strong>Check ownership documents:</strong> Confirm the seller can provide the required ownership and registration paperwork, and check for any applicable liens or restrictions.</li>
+          <li><strong>Look for visible damage:</strong> Inspect the body, skis, suspension, track, tunnel, and other accessible components for cracks, unusual wear, or signs of damage.</li>
+          <li><strong>Look for leaks or corrosion:</strong> Check accessible areas for fluid leaks, excessive rust, damaged wiring, or signs of neglect.</li>
+          <li><strong>Ask for a cold start:</strong> If practical, see how the engine starts from cold. Difficulty starting, unusual noises, smoke, or warning lights may need professional investigation.</li>
+          <li><strong>Check the track and suspension:</strong> Look for damage, missing or worn components, and condition issues that could require expensive repairs.</li>
+          <li><strong>Arrange a professional inspection:</strong> A qualified snowmobile technician can identify problems that may not be obvious during a visual check.</li>
+        </ul>
+        <p><strong>Buying tip:</strong> Do not feel pressured to buy immediately. If the seller will not allow reasonable inspection or cannot answer basic questions, consider another machine.</p>
+      </section>
+
+      <h2>Snowmobile repairs and troubleshooting</h2>
+      <p>Snowmobiles operate in cold, demanding conditions, and even a well-maintained machine can develop problems. A few basic observations can help you describe an issue, but troubleshooting should never replace safe repair practices or professional service when needed.</p>
+
+      <section class="panel">
+        <h3>Common problems to watch for</h3>
+        <ul>
+          <li><strong>Engine will not start:</strong> Check the owner's manual for the correct starting procedure. Depending on the model, possible causes include a weak battery, an empty fuel tank, stale fuel, a safety switch, or an ignition or fuel-system problem.</li>
+          <li><strong>Battery or electrical issues:</strong> Dim lights, clicking sounds, or intermittent electrical operation may indicate a weak battery, poor connection, or another electrical fault.</li>
+          <li><strong>Overheating or warning lights:</strong> Stop in a safe location and follow the owner's manual. Some cooling systems depend on snow conditions, so operating requirements differ by model. Do not continue riding when a warning indicates a potentially damaging condition.</li>
+          <li><strong>Unusual noises or vibration:</strong> Stop riding if you notice a new grinding sound, severe vibration, or a change in handling. These symptoms can signal a problem with the track, suspension, drivetrain, or another component.</li>
+          <li><strong>Poor performance:</strong> Sluggish acceleration or rough running can have several causes, including fuel, ignition, airflow, or mechanical issues. Avoid replacing parts based on guesswork.</li>
+          <li><strong>Track or steering concerns:</strong> If the machine pulls unexpectedly, steering feels different, or the track appears damaged, stop and have it inspected before riding again.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h3>When should you take your snowmobile to a mechanic?</h3>
+        <p>Some maintenance tasks are suitable for owners who have the right tools and follow the manufacturer's instructions. Other repairs require specialized knowledge and equipment.</p>
+        <ul>
+          <li>Seek professional help for engine, drivetrain, fuel-system, or electrical problems you cannot confidently diagnose.</li>
+          <li>Have damaged tracks, steering parts, suspension components, or other safety-critical parts inspected before further use.</li>
+          <li>Do not bypass safety switches, warning systems, or protective guards to get a machine running.</li>
+          <li>Never work near moving components or a running track. Shut the machine off, remove the key, let hot parts cool, and follow the manual's service instructions.</li>
+          <li>Ask the shop for an estimate and an explanation of recommended repairs before authorizing work.</li>
+        </ul>
+        <p class="small">The right repair procedure depends on the make, model, year, and equipment. Use the correct service manual for your machine.</p>
+      </section>
+
+      <h2>Regular snowmobile maintenance</h2>
+      <p>Routine maintenance helps you identify wear before it becomes a bigger problem. The correct schedule varies by manufacturer and model, so use the owner's manual as your main reference and keep a record of completed service.</p>
+
+      <section class="panel">
+        <h3>Before every ride</h3>
+        <ul>
+          <li>Check the fuel level and confirm that the machine has the correct fluids for its design.</li>
+          <li>Inspect the track, skis, suspension, and visible components for damage or unusual wear.</li>
+          <li>Check steering and brake operation according to the owner's manual.</li>
+          <li>Look for loose fasteners, visible leaks, damaged wiring, or warning lights.</li>
+          <li>Confirm that lights, the throttle, and the engine stop switch function as described in the manual.</li>
+          <li>Pack appropriate safety equipment and confirm your route and weather conditions before leaving.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h3>After every ride</h3>
+        <ul>
+          <li>Remove accumulated snow and ice where it is safe to do so, following the manufacturer's guidance.</li>
+          <li>Look over the machine for new damage, loose parts, or fluid leaks.</li>
+          <li>Allow the machine to cool before covering or storing it as directed by the manufacturer.</li>
+          <li>Note unusual sounds, warning lights, or performance changes so they can be investigated before the next ride.</li>
+          <li>Store the snowmobile in a secure location away from ignition sources and follow all fuel-storage safety instructions.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h3>During the riding season</h3>
+        <ul>
+          <li>Follow the manual's service intervals for engine oil, lubrication, filters, and other model-specific maintenance.</li>
+          <li>Inspect track tension and condition using the manufacturer's specified procedure and measurements.</li>
+          <li>Check battery condition, electrical connections, and charging-system performance when applicable.</li>
+          <li>Inspect drive belts and other wear items for damage and replace them according to the manual.</li>
+          <li>Keep a record of service dates, repairs, parts, and any recurring issues.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h3>Preparing for off-season storage</h3>
+        <p>When winter ends, prepare your snowmobile for storage according to its owner's manual. Proper storage practices vary by engine and fuel-system design.</p>
+        <ul>
+          <li>Clean and dry the machine as recommended to help reduce corrosion.</li>
+          <li>Follow the manufacturer's instructions for fuel treatment or fuel-system preparation, if required.</li>
+          <li>Inspect worn parts and arrange needed repairs before the next riding season.</li>
+          <li>Maintain or disconnect the battery as directed for your model.</li>
+          <li>Store the machine in a dry, secure location and follow manufacturer guidance for track support and storage position.</li>
+          <li>Make a list of parts or service items to address before winter returns.</li>
+        </ul>
+      </section>
+
+      <section class="callout">
+        <h3>Make maintenance part of your riding routine</h3>
+        <p>A little preparation can help you spend less time dealing with preventable issues and more time enjoying the Northwoods. Inspect your snowmobile regularly, keep maintenance records, and address warning signs before heading back onto the trails.</p>
+        <p>For model-specific procedures, service intervals, and technical specifications, consult your owner's manual or a qualified snowmobile technician.</p>
+      </section>
+
+      <section class="panel">
+        <h3>Plan your next ride</h3>
+        <p>Once your snowmobile is ready, review trail access, weather, and trip options before heading out.</p>
+        <ul>
+          <li><a href="gear-safety.html">Review snowmobile gear and safety</a></li>
+          <li><a href="trails-weather.html">Check how to research trail conditions and weather</a></li>
+          <li><a href="towns-stops.html">Explore Northern Wisconsin towns and stops</a></li>
+        </ul>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+    <div class="inner">
+      <strong>Northwoods Snowmobile Guide</strong>
+      <p>Independent trip-planning information for a fictional Northern Wisconsin snowmobiling guide.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="gear-safety.html">Gear &amp; Safety</a> ·
+        <a href="trails-weather.html">Trails &amp; Weather</a> ·
+        <a href="towns-stops.html">Towns &amp; Stops</a> ·
+        <a href="snowmobile-maintenance.html">Buying &amp; Maintenance</a>
+      </p>
+      <p class="small">Ride within your abilities, respect local rules, and check official information before departure.</p>
+    </div>
+  </footer>
+</body>
+</html>
