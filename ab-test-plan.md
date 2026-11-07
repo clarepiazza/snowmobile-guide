@@ -25,7 +25,7 @@ Version B names the types of information available on the site—trails, safety,
 
 **Target visitor/persona:** An adult interested in snowmobiling in Northern Wisconsin who is seeking useful information about trails, safety, gear, or destinations.
 
-**Model:** GPT-6 (ChatGPT). Use the same model selection and settings for every trial. Record the model label and settings at the start of each batch. If GPT-6 is unavailable or the model/settings change, pause and document the issue; do not silently switch models.
+**Model:** GPT-6 (ChatGPT, Free plan). Use the same model selection, account plan, and settings for every trial. Record the model label and visible settings for each trial. If GPT-6 is unavailable or the model, plan, or settings change, pause and document the issue; do not silently switch models.
 
 Each trial will be run in a fresh conversation with no memory of earlier trials. The live homepage URL will be provided in the prompt in the same way for every trial; only the assigned A or B URL will differ.
 
