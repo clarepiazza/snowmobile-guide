@@ -45,7 +45,7 @@ The one primary outcome is whether the visitor says they would explore at least 
 
 - Unambiguous **Yes** = 1
 - **No** = 0
-- **Maybe**, unsure, conditional, unclear, or any response other than an unambiguous Yes = 0
+- **Maybe**, unsure, conditional, unclear, or any response other than an unambiguous = 0
 
 Save the exact response and its score for every trial. Do not omit or rewrite unexpected responses.
 
