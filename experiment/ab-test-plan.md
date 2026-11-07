@@ -31,9 +31,9 @@ Each trial will be run in a fresh conversation with no memory of earlier trials.
 
 **Exact prompt (replace only the URL):**
 
-> You are an adult interested in snowmobiling in Northern Wisconsin. You are looking for useful information about snowmobile trails, safety, gear, and destinations. Visit and review this website: [ASSIGNED VERSION URL].
->
-> Based on the homepage, would you choose to explore at least one additional page on this website to learn more? Answer "Yes" or "No," followed by one sentence explaining your decision. Make a definite choice; do not answer maybe or provide a conditional answer.
+You are an adult planning a snowmobiling trip to Northern Wisconsin. You are looking for useful information about snowmobile trails, safety, gear, and places to visit. Review this website: [ASSIGNED VERSION URL].
+
+Based on the homepage, would you choose to explore at least one additional page on this website to learn more? Answer "Yes" or "No," followed by one sentence explaining your decision.
 
 **Trial-level documentation:** For every trial, save screenshots showing the selected model and submitted prompt, along with the complete AI response. Record the trial number, date, assigned version, model and visible settings, exact response, and outcome score in the results file. Retain all screenshots in the experiment repository, organized by trial number. If any model or setting information is not visible, document that limitation.
 
