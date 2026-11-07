@@ -35,6 +35,8 @@ Each trial will be run in a fresh conversation with no memory of earlier trials.
 >
 > Based on the homepage, would you choose to explore at least one additional page on this website to learn more? Answer "Yes" or "No," followed by one sentence explaining your decision. Make a definite choice; do not answer maybe or provide a conditional answer.
 
+**Trial-level documentation:** For every trial, save screenshots showing the selected model and submitted prompt, along with the complete AI response. Record the trial number, date, assigned version, model and visible settings, exact response, and outcome score in the results file. Retain all screenshots in the experiment repository, organized by trial number. If any model or setting information is not visible, document that limitation.
+
 ## Assignment and sample
 
 Run 100 trials: 50 for A and 50 for B. Before collecting responses, generate a randomized sequence containing exactly 50 A assignments and 50 B assignments. Save that sequence in the experiment files and follow it in order. Each trial will use a separate fresh conversation. Use the same prompt, persona, model, settings, and live-URL presentation method throughout.
